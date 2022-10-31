@@ -2,6 +2,9 @@ using System.Globalization;
 using System;
 namespace RoleplayGame.Items;
 
+/// <summary>
+/// Baston mágico. Permite atacar.
+/// </summary>
 public class BastonMagico : IAttackItem
 {
     private GemaDePoder Gema {get; set;}

@@ -4,7 +4,7 @@ using RoleplayGame.Items;
 namespace RoleplayGame.Characters
 {
     /// <summary>
-    /// Personaje Mago
+    /// Personaje Troll
     /// </summary>
     public class Trolls: Character
     {

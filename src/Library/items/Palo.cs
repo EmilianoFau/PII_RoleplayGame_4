@@ -2,6 +2,9 @@ using System;
 
 namespace RoleplayGame.Items
 {
+    /// <summary>
+    /// Palo. Permite atacar.
+    /// </summary>
     public class Palo : IAttackItem
     {
         public int AttackPower

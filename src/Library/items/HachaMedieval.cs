@@ -1,7 +1,7 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Magia. Permite atacar y defender.
+    /// Hacha. Permite atacar.
     /// </summary>
     public class HachaMedieval : IAttackItem
     {
