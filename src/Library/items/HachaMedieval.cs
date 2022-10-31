@@ -3,7 +3,7 @@ namespace RoleplayGame.Items
     /// <summary>
     /// Magia. Permite atacar y defender.
     /// </summary>
-    public class HachaMedieval : IAttackItem, IDefenseItem
+    public class HachaMedieval : IAttackItem
     {
         /// <summary>
         /// El poder de ataque
@@ -13,19 +13,7 @@ namespace RoleplayGame.Items
         {
             get
             {
-                return 80;
-            }
-        }
-
-        /// <summary>
-        /// El poder de defensa
-        /// </summary>
-        /// <value></value>
-        public int DefensePower
-        {
-            get
-            {
-                return 30;
+                return 50;
             }
         }
 
