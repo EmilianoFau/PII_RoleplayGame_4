@@ -16,7 +16,7 @@ public class BastonMagico : IAttackItem
     {
         get
         {
-            return Gema.AttackPower + Magic.AttackPower;
+            return Gema.valorDeGema + Magic.AttackPower;
         }
     }
 }

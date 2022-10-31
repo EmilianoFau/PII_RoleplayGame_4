@@ -1,9 +1,9 @@
 using System;
 namespace RoleplayGame.Items;
 
-public class GemaDePoder : IAttackItem
+public class GemaDePoder : IComponente
 {
-    public int AttackPower
+    public int valorDeGema
     {
         get
         {
