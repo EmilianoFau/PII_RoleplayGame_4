@@ -4,7 +4,7 @@ using RoleplayGame.Items;
 namespace RoleplayGame.Characters
 {
     /// <summary>
-    /// Personaje Mago
+    /// Personaje Troll
     /// </summary>
     public class Trolls: Character
     {
@@ -13,6 +13,7 @@ namespace RoleplayGame.Characters
         {
             this.Health = 60;
             this.AddItem(new Coraza());
+            this.AddItem(new Palo());
         }
     }
 }

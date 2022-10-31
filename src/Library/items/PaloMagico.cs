@@ -1,10 +1,12 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Hacha. Permite atacar.
+    /// Palo Magico. Permite atacar y defender.
     /// </summary>
-    public class HachaMedieval : IAttackItem
+    public class PaloMagico : IAttackItem
     {
+        private Magic magic { get; set;}
+        private Espada espada {get; set;}
         /// <summary>
         /// El poder de ataque
         /// </summary>
@@ -13,13 +15,13 @@ namespace RoleplayGame.Items
         {
             get
             {
-                return 50;
+                return magic.AttackPower + espada.AttackPower;
             }
         }
 
         public override string ToString()
         {
-            return "Hacha medieval";
+            return "Palo Magico";
         }
     }
 }
