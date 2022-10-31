@@ -1,7 +1,7 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Magia. Permite atacar y defender.
+    /// Palo Magico. Permite atacar y defender.
     /// </summary>
     public class PaloMagico : IAttackItem
     {
