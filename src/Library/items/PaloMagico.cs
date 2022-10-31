@@ -5,7 +5,7 @@ namespace RoleplayGame.Items
     /// </summary>
     public class PaloMagico : IAttackItem
     {
-        private Magic magic {get; set;}
+        private Magic magic { get; set;}
         private Espada espada {get; set;}
         /// <summary>
         /// El poder de ataque
@@ -21,7 +21,7 @@ namespace RoleplayGame.Items
 
         public override string ToString()
         {
-            return "Magic";
+            return "Palo Magico";
         }
     }
 }
