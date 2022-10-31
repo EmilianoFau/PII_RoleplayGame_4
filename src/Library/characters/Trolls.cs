@@ -11,8 +11,8 @@ namespace RoleplayGame.Characters
         public Trolls(string name)
             : base(name)
         {
-            this.Health = 80;
-            this.AddItem(new Magic());
+            this.Health = 60;
+            this.AddItem(new Coraza());
         }
     }
 }

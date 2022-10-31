@@ -11,5 +11,9 @@ namespace RoleplayGame.Items
                 return 18;
             }
         }
+        public override string ToString()
+        {
+            return "Coraza";
+        }
     }
 }
